@@ -1,0 +1,141 @@
+body{
+    background-image: url('pexels-karolina-grabowska-4046758.jpg');
+    background-size: cover;
+    padding-left: 10px;
+    font-family: 'Varela Round', sans-serif;
+    width: auto;
+    height: auto;
+    margin-right: 4%;
+    background-image: url('pexels-visax-12815475.jpg');
+    background-size: contain 100%;
+    background-repeat: no-repeat;
+    font-family: 'Varela Round', sans-serif;
+}
+.tittle{
+    right: 0;
+    left: 0;
+    position: relative;
+    
+    
+}
+.channel{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(16, 11, 11);
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: rgb(4, 142, 255);
+    width: auto;
+    height: 80px;
+    background-image: linear-gradient(yellow, orangered);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
+}
+.config{
+    text-align: center;
+    height: auto;
+    width: auto;
+    color: #eeff00;
+}
+.camera{
+    text-align: center;
+    height: auto;
+    width: auto; 
+    color: #eeff00;
+}
+.config-link{
+    text-decoration: wavy;
+    text-decoration-line: underline;
+    color: rgb(255, 255, 255);
+    
+}
+
+.hr{
+    color: #eeff00;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 144px;
+}
+.video{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.config-name{
+    font-size: auto;
+    color: #eeff00;
+}
+.tr{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0, 132, 255), rgb(255, 255, 255));
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#trans{
+    display: flex;
+    justify-content: center;
+}
+.translate{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tr1{
+    color: white;
+    font-weight: 700;
+    /* width: auto; */
+    background: linear-gradient(to top right, #00b7ff 0%, #0051ff 100%);
+    width: 200px;
+    text-align: center;
+    box-shadow: 8px 5px 20px rgb(0, 0, 0);
+}
+.tr2{
+    color: rgb(255, 255, 255);
+    /* font-weight: 700; */
+    text-shadow: 5px 5px 5px black;
+}
+.copy{
+    margin-top: 10%;
+    border:2px solid #090909;
+    width: auto;
+    background: linear-gradient(to top right, #3399ff 0%, #003399 100%);
+    border-radius: 10px 10px 0 0;
+}
+.color{
+    text-shadow: 5px 5px 5px black;
+}
+.social-link{
+    background: linear-gradient(to bottom, #6cd5f8 0%, #052fff 100%);
+    height: auto;
+    border-left: 2px solid rgb(0, 123, 255);
+    border-bottom: 2px solid rgb(0, 106, 255);
+    border-radius: 10px;
+    box-shadow: 7px 6px 20px 5px rgb(0, 0, 0);
+    margin: 0 10px;
+    background-image: url('HTYRLxskBEhiR2ZIY1t3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    background-position: bottom;
+}
+.button{
+    color: rgb(255, 255, 255);
+}
+.bangla{
+    margin-top: 20px;
+    color: #eeff00;
+}
+.ending{
+    font-size: 16px;
+    margin: 0 14px;
+    margin-bottom: 30px;
+}
