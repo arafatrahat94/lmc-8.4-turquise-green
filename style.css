@@ -11,11 +11,10 @@ body{
     background-size: contain 100%;
     background-repeat: no-repeat;
     font-family: 'Varela Round', sans-serif;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
 }
 .tittle{
-    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
     right: 0;
     left: 0;
     position: relative;
@@ -38,18 +37,18 @@ body{
     background-image: linear-gradient(yellow, orangered);
     border: 2px solid black;
     border-radius: 10px;
-    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
     letter-spacing: 2px;
 }
 .config{ 
-    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
     text-align: center;
     height: auto;
     width: auto;
     color: #eeff00;
 }
 .camera{
-    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
     text-align: center;
     height: auto;
     width: auto; 
@@ -108,7 +107,7 @@ body{
 .tr2{
     color: rgb(255, 255, 255);
     /* font-weight: 700; */
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
 }
 .copy{
     margin-top: 10%;
@@ -118,7 +117,7 @@ body{
     border-radius: 10px 10px 0 0;
 }
 .color{
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
 }
 .social-link{
     background: linear-gradient(to bottom, #6cd5f8 0%, #052fff 100%);
