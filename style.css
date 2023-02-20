@@ -12,6 +12,7 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 .tittle{
+    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
     right: 0;
     left: 0;
     position: relative;
@@ -26,9 +27,9 @@ body{
     text-align: center;
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(16, 11, 11);
-    -webkit-text-stroke-width: 0.01px;
-    -webkit-text-stroke-color: rgb(4, 142, 255);
+    color: rgb(0, 110, 255);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
     width: auto;
     height: 80px;
     background-image: linear-gradient(yellow, orangered);
@@ -36,13 +37,15 @@ body{
     border-radius: 10px;
     text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
 }
-.config{
+.config{ 
+    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
     text-align: center;
     height: auto;
     width: auto;
     color: #eeff00;
 }
 .camera{
+    text-shadow: 10px 3px 6px rgba(0, 0, 0, 0.934);
     text-align: center;
     height: auto;
     width: auto; 
