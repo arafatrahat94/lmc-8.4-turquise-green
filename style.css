@@ -31,7 +31,7 @@ body{
     color: #000000;
 }
 .back-button:hover{
-    color: #00d5ff;
+    color: #ff0008;
 }
 .closebtn{
     color: #ffffff;
@@ -39,12 +39,11 @@ body{
 
 .sidenav {
     height: 100%;
-    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-image: linear-gradient(rgb(10, 10, 10), rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(255, 255, 0), rgb(252, 5, 5));
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -52,27 +51,28 @@ body{
   
   .sidenav a {
     text-align: end;
-    padding: 8px 32px 8px 8px;
+    padding: 8px 20px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #00d5ff;
+    color: #ff0000;
   }
   
   .sidenav .closebtn {
     position: absolute;
     top: 0;
-    left: 25px;
+    left: 10px;
     font-size: 36px;
     margin-right: 50px;
   }
-  
-  @media screen and (max-height: 450px) {
+
+  @media screen and (max-height: 450px){
     .sidenav {padding-top: 1px;}
     .sidenav a {font-size: 18px;}
   }
