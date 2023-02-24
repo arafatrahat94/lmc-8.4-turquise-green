@@ -43,7 +43,9 @@ body{
     z-index: 1;
     top: 0;
     right: 0;
-    background: linear-gradient(to bottom left, #ff5050 0%, #ffcc00 100%);
+    /* background: linear-gradient(to bottom left, #ff5050 0%, #ffcc00 100%); */
+    background-image: url('dark.jpg');
+    
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -129,7 +131,9 @@ body{
     /* text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.934); */
     
 }
-
+.config-link:hover{
+    color: #ff0101;
+}
 .hr{
     color: #000000;
     border: 1px solid rgb(255, 255, 255);
@@ -149,7 +153,6 @@ body{
     height: 40px;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(rgb(0, 132, 255), rgb(255, 255, 255));
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
@@ -173,6 +176,9 @@ body{
     width: 200px;
     text-align: center;
     box-shadow: 8px 5px 20px rgb(0, 0, 0);
+}
+.tr1:hover{
+    background: linear-gradient(to top right, #0f191d 0%, #0051ff 100%);
 }
 .tr2{
     color: rgb(255, 255, 255);
