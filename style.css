@@ -6,7 +6,7 @@ body{
     width: auto;
     height: auto;
     margin-right: 4%;
-    background-image: url('banner-gd5854deae_1920.png');
+    background-image: url('white-painted-wall-texture-background.jpg');
     /* background: linear-gradient(to bottom, #ff0000 0%, #ff3300 100%); */
     background-size: contain 100%;
     background-repeat: no-repeat;
@@ -62,11 +62,11 @@ body{
 
 
   .tittle{
-    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
+    text-shadow: none;
     right: 0;
     left: 0;
     position: relative;
-    
+    color: black;
     
 }
 .channel{
@@ -82,35 +82,34 @@ body{
     -webkit-text-stroke-color: rgb(0, 0, 0);
     width: auto;
     height: 80px;
-    background-image: linear-gradient(yellow, orangered);
-    border: 2px solid black;
     border-radius: 10px;
     text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
     letter-spacing: 2px;
 }
 .config{ 
-    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
+    text-shadow: none;
     text-align: center;
     height: auto;
     width: auto;
-    color: #eeff00;
+    color: #0a0a0a;
 }
 .camera{
-    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.934);
+    /* text-shadow: 2px 0px 2px rgba(255, 0, 0, 0.934); */
     text-align: center;
     height: auto;
     width: auto; 
-    color: #eeff00;
+    color: #000000;
 }
 .config-link{
     text-decoration: wavy;
     text-decoration-line: underline;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 72, 255);
+    /* text-shadow: 2px 1px 2px rgba(15, 15, 15, 0.934); */
     
 }
 
 .hr{
-    color: #eeff00;
+    color: #000000;
     border: 1px solid rgb(255, 255, 255);
     margin: 0 144px;
 }
@@ -120,7 +119,8 @@ body{
 }
 .config-name{
     font-size: auto;
-    color: #eeff00;
+    color: #000000;
+    text-shadow: none;
 }
 .tr{
     width: 250px;
@@ -186,7 +186,7 @@ body{
 }
 .bangla{
     margin-top: 20px;
-    color: #eeff00;
+    color: #ffea00;
 }
 .ending{
     font-size: 16px;
