@@ -18,10 +18,20 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.left-button{
+    display: flex;
+    gap: 10px;
+
+}
 .back-button{
     padding-left: 2px;
     padding-top: 7px;
     font-size: 28px;
+    text-decoration: none;
+    color: #000000;
+}
+.back-button:hover{
+    color: #00d5ff;
 }
 .closebtn{
     color: #ffffff;
@@ -41,7 +51,8 @@ body{
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    text-align: end;
+    padding: 8px 32px 8px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
@@ -56,9 +67,9 @@ body{
   .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    left: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-right: 50px;
   }
   
   @media screen and (max-height: 450px) {
