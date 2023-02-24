@@ -20,8 +20,7 @@ body{
 }
 .left-button{
     display: flex;
-    gap: 10px;
-
+    gap: 20px;
 }
 .back-button{
     padding-left: 2px;
@@ -31,7 +30,7 @@ body{
     color: #000000;
 }
 .back-button:hover{
-    color: #ff0008;
+    color: red;
 }
 .closebtn{
     color: #ffffff;
@@ -39,11 +38,12 @@ body{
 
 .sidenav {
     height: 100%;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-image: linear-gradient(rgb(255, 255, 0), rgb(252, 5, 5));
+    background: linear-gradient(to bottom left, #ff5050 0%, #ffcc00 100%);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -51,17 +51,18 @@ body{
   
   .sidenav a {
     text-align: end;
-    padding: 8px 20px 8px 8px;
+    padding: 5px 20px 8px 8px;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 600;
-    color: #000000;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
+    color: #000000;
+    font-weight: 600;
   }
   
   .sidenav a:hover {
-    color: #ff0000;
+    color: #00eeff;
   }
   
   .sidenav .closebtn {
@@ -71,8 +72,8 @@ body{
     font-size: 36px;
     margin-right: 50px;
   }
-
-  @media screen and (max-height: 450px){
+  
+  @media screen and (max-height: 450px) {
     .sidenav {padding-top: 1px;}
     .sidenav a {font-size: 18px;}
   }
